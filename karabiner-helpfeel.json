@@ -1,0 +1,28 @@
+{
+  "title": "Ctrlを押したら'/ 'を生成",
+  "rules": [
+    {
+      "description": "Ctrlを押したら'/ 'を生成",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+             "key_code": "left_control"
+          },
+          "to_if_alone": [
+            {
+              "key_code": "l",
+              "modifiers": ["command"]
+            },
+            {
+              "key_code": "slash"
+            },
+            {
+              "key_code": "spacebar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
