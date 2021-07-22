@@ -1,0 +1,2 @@
+# Karabiner-Helpfeel
+Helpfeelキー
